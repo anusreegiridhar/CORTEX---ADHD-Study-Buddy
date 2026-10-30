@@ -1,0 +1,25 @@
+# Environment & API keys
+.env
+backend/.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# YOLO & evaluation runs
+runs/
+fatigue_detection/runs/
+drowsiness_runs/
+
+# IDE files
+.vscode/
+*.code-workspace
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
